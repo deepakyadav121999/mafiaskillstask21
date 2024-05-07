@@ -44,6 +44,16 @@
   border-style: solid;
   border-radius: 10px;
 }
-.main_container:hover{
+
+.hover_man{
+  
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.hover_man:hover{
   --first:linear-gradient( #bd0606,#1f3bdb) 30;
 }

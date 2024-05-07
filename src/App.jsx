@@ -63,7 +63,8 @@ function App() {
     <>
       <h1 className='header'>All Cards Here</h1>
       <div className="main_container">
-      
+           <div className="hover_man">
+           
       {objects && objects.map((item)=>{
        return (
         <div className="boxes">
@@ -75,7 +76,7 @@ function App() {
        )
       })}
     
-         
+    </div>
       </div>
     </>
   )
